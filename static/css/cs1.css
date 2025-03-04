@@ -1,0 +1,24 @@
+.left,
+.right{
+      width: 48%;
+      height: 600px;
+      background-color: lightblue;
+      float: left;
+      border: 1px solid black;
+      overflow: scroll;
+}
+.chat{
+	width:98%;
+	height:80%;
+	background-color: white;
+	border: 1px solid black;
+	overflow: scroll;
+}
+.tx1{
+	resize: none;
+	width:300px;
+	height:60px;
+}
+.text{
+	width:300px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>上课反馈&&吐槽</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../static/css/cs1.css">
+</head>
+<body>
+	<div class="left">
+		昵称：<input type="text" name="name" placeholder="给自己一个昵称吧！" class="text" id="name">
+		<h3>--------------------------心情更接近于------------------------------</h3>
+		O(∩_∩)O~~<input type="radio" name="mood" class="mood">
+		平淡<input type="radio" name="mood" class="mood">
+		(；′⌒`)<input type="radio" name="mood" class="mood">
+		<input type="submit" value="提交" id="sub1">
+		<h3>-------------上周大事件：上周发生了哪些有意思的事。--------------------</h3>
+		<textarea class="tx1" id='bigEvent' placeholder="吐槽一下上周都发生了哪些好玩的事情吧！或者说一下最近感兴趣的东西也行！！再或者说一下印象比较深的事情吧！！分享一下吧！" ></textarea>
+		<input type="submit" value="提交" id="sub2">
+		<h3>-------------聊天区：想说啥就说啥，会出现在右边聊天区------------------</h3>
+		<input type="text" id="speak" placeholder="想吐槽就吐槽，注意文明用语！" class="text"/>
+		<input type="submit" value="提交" id="sub3">
+		<h3>--------------------------知识交流区------------------------------</h3>
+		趣味性:<input type="text" id="d1" placeholder="有想到好玩的地方吗？输入1~5的数字" class="text"><br />
+		实用性:<input type="text" id="d2" placeholder="感觉用的地方多不？输入1~5的数字" class="text"><br />
+		课程难度:<input type="text" id="d3" placeholder="难不难，好不好理解,理解了多少？输入1~5的数字" class="text"><br />
+		掌握情况:<input type="text" id="d4" placeholder="掌握的情况感觉怎么样？输入1~5的数字" class="text"><br />
+		期待项目:<input type="text" id="d5" placeholder="有想过做出什么项目吗或想了解什么项目吗？" class="text"><br />
+		<input type="submit" value="提交" id="sub4">
+	</div>
+	<div class="right">
+		<h3>聊天区</h3>
+		<div class="chat" id="chatDiv">
+			
+		</div>
+	</div>
+	
+</body>
+<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/index.js"></script>
+</html>
